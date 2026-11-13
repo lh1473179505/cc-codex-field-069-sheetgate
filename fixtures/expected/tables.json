@@ -1,0 +1,54 @@
+{
+  "sales": [
+    {
+      "region": "north",
+      "product": "Amber Vase",
+      "units": 3,
+      "amount_cents": 3690
+    },
+    {
+      "region": "south",
+      "product": "Brass Hook",
+      "units": 5,
+      "amount_cents": 4400
+    },
+    {
+      "region": "east",
+      "product": "Clay Bowl",
+      "units": 2,
+      "amount_cents": 900
+    }
+  ],
+  "inventory": [
+    {
+      "warehouse": "WH-A",
+      "sku": "SKU-A01",
+      "on_hand": 10,
+      "reserved": 1
+    },
+    {
+      "warehouse": "WH-B",
+      "sku": "SKU-B02",
+      "on_hand": 4,
+      "reserved": 0
+    },
+    {
+      "warehouse": "WH-A",
+      "sku": "SKU-C03",
+      "on_hand": 8,
+      "reserved": 2
+    }
+  ],
+  "returns": [
+    {
+      "ticket": "T-1",
+      "sku": "SKU-A01",
+      "qty": 1
+    },
+    {
+      "ticket": "T-2",
+      "sku": "SKU-C03",
+      "qty": 1
+    }
+  ]
+}
